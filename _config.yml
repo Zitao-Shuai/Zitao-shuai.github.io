@@ -1,8 +1,8 @@
 # Basic Information 
-title: Zhengxu Tang
-position: Undergraduate Student
+title: Zitao Shuai
+position: Master's Student
 affiliation: University of Michigan
-email: tangzx@umich.edu
+email: ztshuai@umich.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -38,7 +38,7 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: G-WPQTV5EMHX
+# google_analytics: G-WPQTV5EMHX
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
