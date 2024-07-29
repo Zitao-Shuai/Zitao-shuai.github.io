@@ -1,8 +1,14 @@
 main:
   - title: "Unified fair federated learning for digital healthcare"
-    authors: "Zhang, Fengda and <b>Shuai, Zitao*<b> and Kuang, Kun and Wu, Fei and Zhuang, Yueting and Xiao, Jun"
+    authors: "Zhang, Fengda and <b>Shuai, Zitao[co-first author]</b> and Kuang, Kun and Wu, Fei and Zhuang, Yueting and Xiao, Jun"
     conference_short: "Paper"
     pdf: "https://www.cell.com/patterns/fulltext/S2666-3899(23)00314-8"
     image: "./assets/img/545_final.jpg"
     notes: "ML fairness for healthcare"
+  - title: "Align as Ideal: Cross-Modal Alignment Binding for Federated Medical Vision-Language Pre-training"
+    authors: "<b>Shuai, Zitao</b> and Shen, Liyue"
+    conference_short: "Paper"
+    pdf: "https://arxiv.org/pdf/2404.03854"
+    image: "./assets/img/545_final.jpg"
+    notes: "Trustworthy in multi-modal "
 

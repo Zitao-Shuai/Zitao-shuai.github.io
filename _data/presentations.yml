@@ -3,5 +3,5 @@ main:
     authors: "<b>Zitao Shuai</b>, Chenwei Wu"
     conference_short: "MLLM"
     pdf: "https://drive.google.com/file/d/1mZdDQBCZFzSeKV7-hZvuQzxCt4MR_E2J/view?usp=drive_link"
-    image: "./assets/img/pre_1.jpg"
+    image: "./assets/img/pre_1.png"
     notes: "Lab Meeting"
