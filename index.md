@@ -4,19 +4,13 @@ layout: homepage
 
 ## About Me
 
-Hi! This is **Zhengxu Tang** (唐正旭). I am currently a senior at the [University of Michigan](https://umich.edu), pursuing a double major in **Mathematical Sciences - Operations Research and Modeling** and **Computer Science**. 
-
-At present, I'm engaged as a research assistant in the [Biomedical AI Lab](https://liyueshen.engin.umich.edu/), under the guidance of Dr. Liyue Shen. Previously, I worked in the [Li Lab](https://www.labli.net/), mentored by Dr. Jinxing Li. 
-
-Should you share similar interests or consider potential collaboration, please feel free to reach out to me at tangzx@umich.edu. I'd love to engage in discussions and explore opportunities for collaboration.
+Hi! I'm currently a master's student in the EECS department at the [University of Michigan](https://umich.edu/). I'm advised by Prof.[Liyue Shen](https://liyueshen.engin.umich.edu/) in the University of Michigan and I'm fortunate to work with Prof.[Kun Kuang](https://kunkuang.github.io/)'s group during my undergraduate in Zhejiang University. I got my bachelor's degree in Computer Science and my bachelor's degree in Finance from [Zhejiang University](https://www.zju.edu.cn/english/). And I'm also a member of [CKC Honors College](http://ckc.zju.edu.cn/ckcen/). During my undergraduate, I was advised by Prof.[Kun Kuang](https://kunkuang.github.io/) in the [Department of Computer Science and Technology](http://www.en.cs.zju.edu.cn/) of ZJU. 
 
 ## Research Interests
 
-- **AI for Bio-Medical** 
-- **AI for Science**
+- **Bio-Medical AI** 
+- **Trustworthy AI**
 - **Multimodal representation learning** 
-
-My current research focuses on building a multimodal model based on multiple types of medical data, such as medical images, genomics data, EHRs, and so on. I am particularly interested in Multimodal Learning and its applications in the Biomedical field. Human process various modes of information-including sight, sound, smell, and touch-constantly, and this information shapes our cognition and understanding of the world. Everything is interconnected. For this reason, I firmly believe that multimodal deep learning models are the most effective tools for addressing biomedical problems. l am committed to devoting my skills and expertise to this meaningful endeavor, with the aim of contributing to societal well-being
 
 ## News
 - **[Jul. 2024]** One paper I collaborated was submitted to Science Advances!
