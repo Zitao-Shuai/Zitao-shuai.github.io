@@ -1,8 +1,8 @@
 main:
-  - title: "A Multiomics Approach for Investigating Nitrogen Metabolism in Pancreatic Cancer"
-    authors: "Peter Sajjakulnukit, Kira Holton, Tianrui Ma, <b>Zhengxu Tang</b>, Michael Akpabey"
-    conference_short: "Project"
-    pdf: "./assets/files/bioinf545_group_6_final_report_ds.pdf"
+  - title: "Unified fair federated learning for digital healthcare"
+    authors: "Zhang, Fengda and <b>Shuai, Zitao*<b> and Kuang, Kun and Wu, Fei and Zhuang, Yueting and Xiao, Jun"
+    conference_short: "Paper"
+    pdf: "https://www.cell.com/patterns/fulltext/S2666-3899(23)00314-8"
     image: "./assets/img/545_final.jpg"
-    notes: "Bioinformatics"
+    notes: "ML fairness for healthcare"
 
