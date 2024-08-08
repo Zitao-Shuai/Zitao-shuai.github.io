@@ -2,7 +2,7 @@
 title: Zitao Shuai
 position: Master's Student
 affiliation: University of Michigan
-email: ztshuai@umich.edu
+#email: ztshuai@umich.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -13,9 +13,9 @@ canonical: https://minimal-light-theme.yliu.me/
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 #google_scholar: https://scholar.google.com/
-cv_link: assets/files/CV_New_Zitao Shuai_short.pdf
+#cv_link: assets/files/CV_New_Zitao Shuai_short.pdf
 #github_link: https://github.com/TangZhengxu
-linkedin: https://www.linkedin.com/in/zitao-shuai-1779401a8/
+#linkedin: https://www.linkedin.com/in/zitao-shuai-1779401a8/
 #twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
