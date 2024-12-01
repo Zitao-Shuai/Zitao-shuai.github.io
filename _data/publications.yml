@@ -9,7 +9,7 @@ main:
     authors: "<b>Shuai, Zitao</b> and Wu, Chenwei and Tang, Zhengxu and Song, Bowen and Shen, Liyue"
     conference_short: "<b>[Submitted to TMLR]</b>"
     pdf: "https://arxiv.org/pdf/2408.13335"
-    image: "./assets/img/disentangle.png"
+    image: "./assets/img/figure2_2nd.png"
     notes: "Trustworthy in multi-modal learning"
   - title: "Align as Ideal: Cross-Modal Alignment Binding for Federated Medical Vision-Language Pre-training"
     authors: "<b>Shuai, Zitao</b> and Shen, Liyue"
