@@ -1,4 +1,10 @@
 main:
+  - title: "Semantic Disentanglemnt in Diffusion Transformers"
+    authors: "<b>Zitao Shuai</b>, Chenwei Wu"
+    conference_short: "MLLM"
+    pdf: "https://drive.google.com/file/d/17LfW_7ahHQR0Hp1HhcQPB4BtOmBsrmVy/view?usp=drive_link"
+    image: "./assets/img/disentangle.png"
+    notes: "Lab Meeting"
   - title: "Tutorial on Disentanglement in Diffusion Models"
     authors: "<b>Zitao Shuai</b>, Chenwei Wu"
     conference_short: "MLLM"
