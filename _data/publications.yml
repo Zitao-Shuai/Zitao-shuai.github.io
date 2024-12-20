@@ -26,6 +26,7 @@ main:
   - title: "Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs"
     authors: "Restrepo, David and Wu, Chenwei and Tang, Zhengxu, and <b>Shuai, Zitao</b>, and et al"
     conference_short: "<b>[AAAI2025]</b>"
+    pdf: "https://arxiv.org/abs/2412.14304"
     image: "./assets/img/aaai.png"
     notes: "Foundation model in healthcare "
   - title: "Efficient In-Context Medical Segmentation with Meta-driven Visual Prompt Selection"
