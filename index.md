@@ -12,13 +12,16 @@ Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS de
 - **Trustworthy AI**
 - **Multimodal representation learning** 
 
-## Outside the Office
 
-I’m a passionate tennis enthusiast and have been playing since primary school. I'm a baseline topspin player, with a right-handed two-handed backhand. My favorite player is Rafael Nadal, not only for his exceptional athleticism but also for his remarkable sportsmanship, which **inspires me to persevere in my research endeavors and relentlessly pursue my scientific aspirations**. 
 
 ## News
 - **[Sep. 2023]** Joined Biomedical AI Lab!
 
 {% include_relative _includes/publications.md %}
 {% include_relative _includes/presentations.md %}
+
+
+## Outside the Office
+
+I’m a passionate tennis enthusiast and have been playing since primary school. I'm a baseline topspin player, right-handed (two-handed backhand). My favorite player is Rafael Nadal, not only for his exceptional athleticism but also for his remarkable sportsmanship, which **inspires me to persevere in my research endeavors and relentlessly pursue my scientific aspirations**. 
 
