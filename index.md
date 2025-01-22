@@ -15,7 +15,13 @@ Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS de
 
 
 ## News
+- **[Jun. 2025]** 1 paper accepted in ICLR2025!
+- **[Dec. 2024]** 1 paper accepted in AAAI2025!
+- **[Aug. 2024]** 1 paper accepted in IEEE Journal of Selected Topics in Signal Processing!
+- **[Jun. 2024]** 1 paper accepted in MICCAI2024!
+- **[Dec. 2023]** 1 paper accepted in Cell Patterns!
 - **[Sep. 2023]** Joined Biomedical AI Lab!
+- **[Jun. 2022]** Joined Trustworthy AI Lab!
 
 {% include_relative _includes/publications.md %}
 {% include_relative _includes/presentations.md %}
