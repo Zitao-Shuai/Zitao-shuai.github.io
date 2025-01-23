@@ -8,7 +8,8 @@ Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS de
 
 ## Research Interests
 
-- **Bio-Medical AI** 
+- **AI for Social Goods**
+- **AI for Healthcare**
 - **Trustworthy AI**
 - **Multimodal representation learning** 
 
