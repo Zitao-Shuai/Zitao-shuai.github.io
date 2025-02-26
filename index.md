@@ -21,6 +21,7 @@ My research interests are in trustworthy machine learning and AI for social good
 
 
 ## News
+- **[Feb. 2025]** 1 paper accepted in Nature Scientific Data!
 - **[Jun. 2025]** 1 paper accepted in ICLR2025!
 - **[Dec. 2024]** 1 paper accepted in AAAI2025!
 - **[Aug. 2024]** 1 paper accepted in IEEE Journal of Selected Topics in Signal Processing!
