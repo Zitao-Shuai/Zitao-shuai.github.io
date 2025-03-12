@@ -8,7 +8,7 @@ Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS de
 
 ## Research Interests
 
-- **AI for Social Goods**
+- **AI for Science**
 - **AI for Healthcare**
 - **Trustworthy AI**
 - **Multimodal representation learning** 
@@ -21,6 +21,7 @@ My research interests are in trustworthy machine learning and AI for social good
 
 
 ## News
+- **[Mar. 2025]** A white book for Large-Scale AI in Telecom I have participated in released!
 - **[Feb. 2025]** 1 paper accepted in Nature Scientific Data!
 - **[Jun. 2025]** 1 paper accepted in ICLR2025!
 - **[Dec. 2024]** 1 paper accepted in AAAI2025!
