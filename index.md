@@ -9,21 +9,20 @@ Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS de
 ## Research Interests
 
 - **AI for Science**
-- **AI for Healthcare**
 - **Trustworthy AI**
 - **Multimodal representation learning** 
 
-My research interests are in trustworthy machine learning and AI for social goods, especially in leveraging real-world multi-modal data to provide trustworthy solutions for healthcare problems. These interests have drawn me to explore two main research questions:
+My research interests are in trustworthy machine learning and AI for science, especially in leveraging real-world multi-modal data to provide trustworthy solutions for healthcare problems. These interests have drawn me to explore two main research questions:
 
 - **Trustworthy Healthcare AI**: How can we ensure the trustworthiness of the healthcare AI models, to provide reliable, fair, transparent, and robust outputs?
-- **Multi-modal AI for Social Goods**: How can we leverage heterogeneous multi-modal data to better model practical AI for social good tasks, especially digital healthcare domain?
+- **Multi-modal AI for Science**: How can we leverage heterogeneous multi-modal data to better model practical AI for scientific tasks, especially digital healthcare domain?
 
 
 
 ## News
 - **[Mar. 2025]** A white book for Large-Scale AI in Telecom I have participated in released!
 - **[Feb. 2025]** 1 paper accepted in Nature Scientific Data!
-- **[Jun. 2025]** 1 paper accepted in ICLR2025!
+- **[Jan. 2025]** 1 paper accepted in ICLR2025!
 - **[Dec. 2024]** 1 paper accepted in AAAI2025!
 - **[Aug. 2024]** 1 paper accepted in IEEE Journal of Selected Topics in Signal Processing!
 - **[Jun. 2024]** 1 paper accepted in MICCAI2024!
