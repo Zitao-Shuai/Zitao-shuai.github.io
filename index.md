@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS department at the [University of Michigan](https://umich.edu/). I'm advised by Prof.[Liyue Shen](https://liyueshen.engin.umich.edu/) in the University of Michigan and I'm fortunate to work with Prof.[Kun Kuang](https://kunkuang.github.io/) during my undergraduate in Zhejiang University. I got my bachelor's degree in Computer Science and my bachelor's degree in Finance from [Zhejiang University](https://www.zju.edu.cn/english/). And I'm also a member of [CKC Honors College](http://ckc.zju.edu.cn/ckcen/). 
+Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS department at the [University of Michigan](https://umich.edu/). I'm advised by Prof.[Liyue Shen](https://liyueshen.engin.umich.edu/) in the University of Michigan and I'm fortunate to work with Prof.[Kun Kuang](https://kunkuang.github.io/) during my undergraduate in Zhejiang University. I got my bachelor's degree in Computer Science and my bachelor's degree in Finance from [Zhejiang University](https://www.zju.edu.cn/english/). And I'm also a member of [CKC Honors College](http://ckc.zju.edu.cn/ckcen/).
 
 ## Research Interests
 
