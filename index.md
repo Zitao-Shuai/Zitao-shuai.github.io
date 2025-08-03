@@ -23,6 +23,9 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 
 
 ## News
+- **[Jul. 2025]** 1 paper accepted in TMLR!
+- **[May. 2025]** 1 paper accepted in ACL!
+- **[Apr. 2025]** Joined Health Intelligence Lab!
 - **[Mar. 2025]** A white book for Large-Scale AI in Telecom I have participated in released!
 - **[Feb. 2025]** 1 paper accepted in Nature Scientific Data!
 - **[Jan. 2025]** 1 paper accepted in ICLR2025!
@@ -39,5 +42,5 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 
 ## Outside the Office
 
-I’m a passionate tennis enthusiast and have been playing since primary school. I'm a baseline topspin player, right-handed (two-handed backhand). My favorite player is Rafael Nadal, not only for his exceptional athleticism but also for his remarkable sportsmanship, which **inspires me to persevere in my research endeavors and relentlessly pursue my scientific aspirations**. 
+I’m a tennis enthusiast and have been playing since I was 9. My favorite player is Rafael Nadal, not only for his exceptional athleticism but also for his remarkable sportsmanship - give his best on every shot until the very end of the match, which inspires me to persevere in my research endeavors and relentlessly pursue my scientific aspirations. 
 
