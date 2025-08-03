@@ -3,8 +3,10 @@ layout: homepage
 ---
 
 ## About Me
+Hi! I'm Zitao Shuai, I'm currently an incoming PhD student at UCLA Computer Science Department. I'm fortunate to work with Prof.[Liyue Shen](https://liyueshen.engin.umich.edu/) at the [University of Michigan](https://umich.edu/) during my master’s studies, and with Prof.[Kun Kuang](https://kunkuang.github.io/) at [Zhejiang University](https://www.zju.edu.cn/english/) during my undergraduate studies. And I'm also a member of [CKC Honors College](http://ckc.zju.edu.cn/ckcen/).
 
-Hi! I'm Zitao Shuai [帅子滔], I'm currently a master's student in the EECS department at the [University of Michigan](https://umich.edu/). I'm advised by Prof.[Liyue Shen](https://liyueshen.engin.umich.edu/) in the University of Michigan and I'm fortunate to work with Prof.[Kun Kuang](https://kunkuang.github.io/) during my undergraduate in Zhejiang University. I got my bachelor's degree in Computer Science and my bachelor's degree in Finance from [Zhejiang University](https://www.zju.edu.cn/english/). And I'm also a member of [CKC Honors College](http://ckc.zju.edu.cn/ckcen/).
+I have broad interests in Research Interests in AI for Healthcare, Trustworthy AI, and Multimodal representation learning.
+
 
 ## Research Interests
 
