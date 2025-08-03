@@ -3,21 +3,22 @@ layout: homepage
 ---
 
 ## About Me
-Hi! I'm Zitao Shuai, I'm currently an incoming PhD student at UCLA Computer Science Department. I'm fortunate to work with Prof.[Liyue Shen](https://liyueshen.engin.umich.edu/) at the [University of Michigan](https://umich.edu/) during my master’s studies, and with Prof.[Kun Kuang](https://kunkuang.github.io/) at [Zhejiang University](https://www.zju.edu.cn/english/) during my undergraduate studies. And I'm also a member of [CKC Honors College](http://ckc.zju.edu.cn/ckcen/).
+Hi! I'm Zitao Shuai, I'm currently an incoming PhD student at UCLA Computer Science Department advised by Prof.[Yuzhe Yang](https://people.csail.mit.edu/yuzhe/). I'm fortunate to work with Prof.[Liyue Shen](https://liyueshen.engin.umich.edu/) at the [University of Michigan](https://umich.edu/) during my master’s studies, and with Prof.[Kun Kuang](https://kunkuang.github.io/) at [Zhejiang University](https://www.zju.edu.cn/english/) during my undergraduate's studies. And I'm also a member of [CKC Honors College](http://ckc.zju.edu.cn/ckcen/) during my undergraduate's studies.
 
 I have broad interests in Research Interests in AI for Healthcare, Trustworthy AI, and Multimodal representation learning.
 
 
 ## Research Interests
 
-- **AI for Science**
+- **AI for Healthcare**
+- **Multi-modal learning** 
 - **Trustworthy AI**
-- **Multimodal representation learning** 
 
-My research interests are in trustworthy machine learning and AI for science, especially in leveraging real-world multi-modal data to provide trustworthy solutions for healthcare problems. These interests have drawn me to explore two main research questions:
 
-- **Trustworthy Healthcare AI**: How can we ensure the trustworthiness of the healthcare AI models, to provide reliable, fair, transparent, and robust outputs?
-- **Multi-modal AI for Science**: How can we leverage heterogeneous multi-modal data to better model practical AI for scientific tasks, especially digital healthcare domain?
+My research interests are in multi-modal learning and AI for healthcare, especially in leveraging multi-source data to deliver trustworthy solutions for real-world healthcare problems. These interests have drawn me to explore two main research questions:
+
+- **Foundation Model for Wearable Data**: How can we build multi-modal foundation models for heterogeneous and long-context wearable signal data?
+- **Scientific Finding with Wearable Data**: How can we uncover correclations between diseases and signal data collected from wearable devices with modern AI techniques?
 
 
 
