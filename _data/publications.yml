@@ -31,7 +31,7 @@ main:
   - title: "Enhancing AI-based Diabetic Retinopathy Screening in Low- and Middle-Income Countries with Synthetic Data"
     authors: "<b>Shuai, Zitao[co-first author]</b> and Wu, Chenwei and Tang, Zhengxu and Morley, Micheal and Nakayama Luis Filipe"
     conference_short: "<b>[Submitted to JBI]</b>"
-    image: "./assets/img/jbi_intro.png"
+    image: "./assets/img/intro_jbi.png"
     notes: "Foundation models"
   # - title: "Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs"
   #   authors: "Restrepo, David and Wu, Chenwei and Tang, Zhengxu, and <b>Shuai, Zitao</b>, and et al"
