@@ -6,7 +6,7 @@ main:
     image: "./assets/img/cell.png"
     notes: "ML fairness for healthcare"
   - title: "Distributionally Robust Alignment for Medical Federated Vision-Language Pre-training Under Data Heterogeneity"
-    authors: "<b>Shuai, Zitao</b> and Shen, Liyue"
+    authors: "<b>Shuai, Zitao</b>, Wu, Chenwei, Tang, Zhengxu and Shen, Liyue"
     conference_short: "<b>[TMLR]</b>"
     pdf: "https://openreview.net/forum?id=hb3ZGvBja4"
     image: "./assets/img/intro_figure.png"
