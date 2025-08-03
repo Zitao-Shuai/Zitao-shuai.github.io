@@ -26,7 +26,7 @@ main:
   - title: "REMIND: Rethinking High-Modality Learning Under Missingness — A Long-Tailed Distribution Perspective"
     authors: "<b>Shuai, Zitao[co-first author]</b>, Wu, Chenwei and Shen, Liyue"
     conference_short: "<b>[Submitted to AAAI2026]</b>"
-    image: "./assets/img/missing_intro_new.png"
+    image: "./assets/img/missing_intro.png"
     notes: "multi-modal learning"
   # - title: "Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs"
   #   authors: "Restrepo, David and Wu, Chenwei and Tang, Zhengxu, and <b>Shuai, Zitao</b>, and et al"
