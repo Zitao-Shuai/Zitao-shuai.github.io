@@ -29,7 +29,7 @@ main:
     image: "./assets/img/missing_intro.png"
     notes: "multi-modal learning"
   - title: "Enhancing AI-based Diabetic Retinopathy Screening in Low- and Middle-Income Countries with Synthetic Data"
-    authors: "<b>Shuai, Zitao[co-first author]</b>, Wu Chenwei, ... , Morley Morley, and Nakayama Luis Filipe"
+    authors: "<b>Shuai, Zitao[co-first author]</b> and Wu, Chenwei and Tang, Zhengxu and Morley, Micheal and Nakayama Luis Filipe"
     conference_short: "<b>[Submitted to JBI]</b>"
     image: "./assets/img/jbi_intro.png"
     notes: "Foundation models"
