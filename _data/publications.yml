@@ -10,7 +10,7 @@ main:
     conference_short: "<b>[TMLR]</b>"
     pdf: "https://openreview.net/forum?id=hb3ZGvBja4"
     image: "./assets/img/intro_figure.png"
-    notes: "Trustworthy AI & Multi-modal learning"
+    notes: "Trustworthy AI"
   # - title: "Latent Space Disentanglement in Diffusion Transformers Enables Zero-shot Fine-grained Semantic Editing"
   #   authors: "<b>Shuai, Zitao</b> and Wu, Chenwei and Tang, Zhengxu and Song, Bowen and Shen, Liyue"
   #   conference_short: "<b>[Submitted to TMLR]</b>"
