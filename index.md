@@ -37,7 +37,7 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 - **[Jun. 2022]** Joined Trustworthy AI Lab!
 
 {% include_relative _includes/publications.md %}
-{% include_relative _includes/presentations.md %}
+
 
 
 ## Outside the Office
