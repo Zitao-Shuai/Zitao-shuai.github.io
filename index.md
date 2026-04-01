@@ -30,7 +30,6 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 - **[Jul. 2025]** 1 paper accepted in TMLR!
 - **[May. 2025]** 1 paper accepted in ACL!
 - **[Apr. 2025]** Joined Health Intelligence Lab!
-- **[Mar. 2025]** A white book for Large-Scale AI in Telecom I have participated in released!
 - **[Feb. 2025]** 1 paper accepted in Nature Scientific Data!
 - **[Jan. 2025]** 1 paper accepted in ICLR2025!
 - **[Dec. 2024]** 1 paper accepted in AAAI2025!
