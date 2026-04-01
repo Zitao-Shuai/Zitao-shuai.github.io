@@ -23,6 +23,10 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 
 
 ## News
+- **[Mar. 2026]** Our Open Sleep Foundation model is out,check here [https://yang-ai-lab.github.io/osf/]!
+- **[Mar. 2026]** Our Open SleepLM is out,check here [https://yang-ai-lab.github.io/SleepLM/]!
+- **[Mar. 2026]** 1 paper accepted in CVPR Findings!
+- **[Oct. 2025]** 1 paper accepted in JBI!
 - **[Jul. 2025]** 1 paper accepted in TMLR!
 - **[May. 2025]** 1 paper accepted in ACL!
 - **[Apr. 2025]** Joined Health Intelligence Lab!
