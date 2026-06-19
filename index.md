@@ -34,7 +34,6 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 - **[Feb. 2025]** 1 paper accepted in Nature Scientific Data!
 - **[Jan. 2025]** 1 paper accepted in ICLR2025!
 - **[Dec. 2024]** 1 paper accepted in AAAI2025!
-- **[Aug. 2024]** 1 paper accepted in IEEE Journal of Selected Topics in Signal Processing!
 - **[Jun. 2024]** 1 paper accepted in MICCAI2024!
 - **[Dec. 2023]** 1 paper accepted in Cell Patterns!
 - **[Sep. 2023]** Joined Biomedical AI Lab!
