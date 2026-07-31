@@ -1,82 +1,199 @@
-.badge {
-    display: inline-block;
-    padding: 0.25em 0.4em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+/* ---------------------------------------------------------------------------
+   Publication / talk list.
+
+   Colours resolve through the design tokens declared in style.css, so this
+   file is shared unchanged by the light-only and auto-dark-mode builds.
+   --------------------------------------------------------------------------- */
+
+.publications {
+  margin-top: 0.5rem;
+}
+
+.publications ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publications ol.bibliography > li {
+  margin: 0 0 1.5rem;
+}
+
+.pub-legend {
+  margin: -0.4rem 0 1.4rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* --- Row ------------------------------------------------------------------ */
+
+.pub-row {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+/* --- Teaser --------------------------------------------------------------- */
+
+.pub-teaser {
+  position: relative;
+  flex: 0 0 258px;
+  max-width: 258px;
+}
+
+.pub-teaser .teaser {
+  display: block;
+  width: 100%;
+  height: 124px;
+  /* Figures are information, not decoration: fit the whole thing rather than
+     cropping into it. Aspect ratios vary, so the box is padded, not filled. */
+  object-fit: contain;
+  object-position: center;
+  padding: 4px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.pub-row:hover .teaser {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
 }
 
 .badge {
-    color: #fff !important;
-    border-radius: 0.125rem;
-    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: inline-block;
+  padding: 0.16rem 0.5rem;
+  border-radius: 4px;
+  background: var(--badge-bg);
+  color: var(--badge-text) !important;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.28);
 }
 
-:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
+.badge b {
+  font-weight: 600;
+  color: inherit;
+}
 
-@media (prefers-color-scheme: dark) { :root { --global-theme-color: rgb(36, 150, 203);}}
+.badge a {
+  color: inherit;
+}
 
-blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
+/* --- Metadata ------------------------------------------------------------- */
 
-@media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
+.pub-meta {
+  min-width: 0;
+  flex: 1 1 auto;
+}
 
-.publications { margin-top: 2rem; }
+.pub-meta .title {
+  margin: 0 0 0.25rem;
+  font-size: 1.03rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--heading);
+}
 
-.publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
+.pub-meta .title a {
+  color: inherit;
+}
 
-.publications h2 { margin-bottom: 1rem; }
+.pub-meta .title a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
 
-.publications h2 span { font-size: 1.5rem; }
+.pub-meta .author {
+  margin: 0 0 0.2rem;
+  font-size: 0.93rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
 
-.publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; margin-top: 2rem; margin-bottom: 0rem; text-align: right; }
+.pub-meta .author b {
+  color: var(--text);
+  font-weight: 600;
+}
 
-.publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
+.pub-meta .periodical {
+  margin: 0 0 0.35rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
 
-.publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
+.pub-meta .periodical em {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--tag-text);
+}
 
-.publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }
+/* --- Links ---------------------------------------------------------------- */
 
-.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; position: absolute; top: 8px; left: 16px; }
+.pub-meta .links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.45rem 0 0;
+}
 
-.publications ol.bibliography li .abbr abbr a { color: white; }
+.pub-meta .links .btn {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-family: var(--font-ui);
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.55;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
 
-.publications ol.bibliography li .abbr abbr a:hover { text-decoration: none; }
+.pub-meta .links .btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--tag-bg);
+  text-decoration: none;
+}
 
-.publications ol.bibliography li .abbr .award { color: var(--global-theme-color) !important; border: 1px solid var(--global-theme-color); }
+.pub-meta .links .tag {
+  margin-left: 0.15rem;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  font-family: var(--font-ui);
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
 
-.publications ol.bibliography li .title { font-weight: bolder; }
+/* --- Responsive ----------------------------------------------------------- */
 
-.publications ol.bibliography li .author a { border-bottom: 1px var(--global-theme-color); }
-
-.publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
-
-.publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
-
-.publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
-
-@media (prefers-color-scheme: dark) {
-.publications ol.bibliography li .links a.btn { color: #FFFFFF; border: 1px solid #FFFFFF; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
-
+@media (max-width: 620px) {
+  .pub-row {
+    display: block;
   }
 
-.publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+  .pub-teaser {
+    max-width: 100%;
+    margin-bottom: 0.7rem;
+  }
 
-.publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
-
-.publications ol.bibliography li .hidden p { line-height: 1.4em; margin: 10px; }
-
-.publications ol.bibliography li .hidden pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
-
-.publications ol.bibliography li .hidden.open { max-height: 100em; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
-
-.publications ol.bibliography li div.abstract.hidden { border: dashed 1px var(--global-bg-color); }
-
-.publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
-
-.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+  .pub-teaser .teaser {
+    height: 170px;
+  }
+}

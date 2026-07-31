@@ -1,64 +1,65 @@
-;(function(mod){
-function collectLinks() {
-  return Array.prototype.slice.apply(
-    document.head.querySelectorAll('link[rel*="icon"]')
-  )
-}
+/*
+ * Swaps the favicon when the OS colour scheme changes.
+ *
+ * Firefox and Safari ignore the `media` attribute on <link rel="icon">, so the
+ * matching icon is promoted to a plain <link> instead. Driven by matchMedia
+ * change events rather than a polling interval.
+ */
+(function () {
+  'use strict';
 
-function applyLink(source, target) {
-  target.setAttribute('type', source.getAttribute('type'))
-  target.setAttribute('href', source.getAttribute('href'))
-}
-
-// eslint-disable-next-line no-unused-vars
-function initSwitcher(delay) {
-  // Exit if media queries aren't supported
   if (typeof window.matchMedia !== 'function') {
-    return function noop() {}
+    return;
   }
 
-  var links = collectLinks()
-  var current = document.createElement('link')
-  var prevMatch
+  var sources = Array.prototype.slice.call(
+    document.head.querySelectorAll('link[rel*="icon"][media]')
+  );
 
-  current.setAttribute('rel', 'shortcut icon')
-  document.head.appendChild(current)
+  if (!sources.length) {
+    return;
+  }
 
-  function faviconApplyLoop() {
-    var matched
+  var active = document.createElement('link');
+  active.setAttribute('rel', 'shortcut icon');
+  document.head.appendChild(active);
 
-    links.forEach(function(link) {
-      if (window.matchMedia(link.media).matches) {
-        matched = link
+  var queries = sources.map(function (link) {
+    return window.matchMedia(link.media);
+  });
+
+  var applied;
+
+  function apply() {
+    var matched;
+
+    queries.forEach(function (query, i) {
+      if (query.matches) {
+        matched = sources[i];
       }
-    })
+    });
 
-    if (! matched) {
-      return
+    if (!matched || matched === applied) {
+      return;
     }
 
-    if (matched.media !== prevMatch) {
-      prevMatch = matched.media
-      applyLink(matched, current)
+    applied = matched;
+    active.setAttribute('type', matched.getAttribute('type') || 'image/png');
+    active.setAttribute('href', matched.getAttribute('href'));
+  }
+
+  queries.forEach(function (query) {
+    if (typeof query.addEventListener === 'function') {
+      query.addEventListener('change', apply);
+    } else if (typeof query.addListener === 'function') {
+      query.addListener(apply); // Safari < 14
     }
-  }
+  });
 
-  var intervalId = setInterval(faviconApplyLoop, delay || 300)
+  apply();
 
-  function unsubscribe() {
-    clearInterval(intervalId)
-    links.forEach(function(link) {
-      document.head.appendChild(link)
-    })
-  }
-
-  faviconApplyLoop()
-  links.forEach(function(link) {
-    document.head.removeChild(link)
-  })
-
-  return unsubscribe
-}
-
-initSwitcher()
-})()
+  // The originals would otherwise win in browsers that do honour `media`.
+  sources.forEach(function (link) {
+    document.head.removeChild(link);
+  });
+})();

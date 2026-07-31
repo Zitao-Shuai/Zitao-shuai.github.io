@@ -1,0 +1,515 @@
+// ---------------------------------------------------------------------------
+// Design tokens
+//
+// Every colour in the site resolves through these variables, so dark mode is a
+// single override block (see minimal-light.scss) rather than rules scattered
+// through the stylesheet.
+// ---------------------------------------------------------------------------
+
+:root {
+  --bg: #ffffff;
+  --bg-subtle: #f7f8fa;
+  --text: #2f3437;
+  --text-muted: #6b7280;
+  --heading: #08375c;
+  --accent: #1a6fa8;
+  --accent-hover: #0d4a72;
+  --border: #e3e6ea;
+  --border-strong: #cdd3da;
+  --badge-bg: #08375c;
+  --badge-text: #ffffff;
+  --tag-bg: rgba(26, 111, 168, 0.10);
+  --tag-text: #175f8f;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0 4px 12px rgba(16, 24, 40, 0.06);
+  --shadow-hover: 0 2px 4px rgba(16, 24, 40, 0.07), 0 10px 24px rgba(16, 24, 40, 0.10);
+
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, "Noto Sans", sans-serif;
+
+  --sidebar-width: 240px;
+  --gutter: 56px;
+  --radius: 8px;
+}
+
+// ---------------------------------------------------------------------------
+// Base
+// ---------------------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: var(--tag-bg);
+}
+
+// Visible only when focused — lets keyboard users jump past the sidebar.
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.6rem 1rem;
+  background: var(--heading);
+  color: #fff;
+  border-radius: 0 0 var(--radius) 0;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+// ---------------------------------------------------------------------------
+// Layout
+//
+// Grid with a sticky sidebar. Replaces the old float + position:fixed pairing,
+// which broke below 960px and could overlap the content column.
+// ---------------------------------------------------------------------------
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 28px;
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  gap: 0 var(--gutter);
+  align-items: start;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  padding: 4rem 0 2rem;
+  text-align: center;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+section {
+  min-width: 0;
+  padding: 4rem 0 3.5rem;
+}
+
+// ---------------------------------------------------------------------------
+// Sidebar
+// ---------------------------------------------------------------------------
+
+.avatar {
+  display: block;
+  width: 168px;
+  height: 168px;
+  margin: 0 auto 1.25rem;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.site-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--heading);
+  margin: 0 0 0.35rem;
+}
+
+.site-position,
+.site-affiliation,
+.site-email {
+  margin: 0 0 0.2rem;
+  line-height: 1.45;
+}
+
+.site-position {
+  font-size: 1.02rem;
+  color: var(--text);
+}
+
+.site-affiliation {
+  font-size: 0.98rem;
+}
+
+.site-email {
+  margin-top: 0.5rem;
+  font-family: "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, Consolas,
+    monospace;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
+
+.site-email a {
+  color: var(--text-muted);
+}
+
+.site-email a:hover {
+  color: var(--accent);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.1rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  color: var(--heading);
+  border: 1px solid var(--border);
+  transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.social-icons a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+// ---------------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2.75rem 0 1.1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+section > h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin: 1.6rem 0 0.6rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  margin: 1.4rem 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1.1rem;
+}
+
+ul,
+ol,
+dl,
+table,
+pre {
+  margin: 0 0 1.2rem;
+}
+
+section ul,
+section ol {
+  padding-left: 1.25rem;
+}
+
+section li {
+  margin-bottom: 0.4rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+strong {
+  color: var(--heading);
+  font-weight: 600;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border);
+  margin: 2rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.1rem;
+  border-left: 3px solid var(--border-strong);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.9em;
+}
+
+code {
+  background: var(--bg-subtle);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+pre {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.1rem;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  color: var(--heading);
+  font-weight: 600;
+}
+
+// Inline tags kept for backwards compatibility with the theme's markup.
+autocolor {
+  color: inherit;
+}
+
+// ---------------------------------------------------------------------------
+// News list
+//
+// Styles the existing markdown "- **[Mon. Year]** text" list: the leading
+// <strong> becomes a date chip. No change to the markdown is required.
+// ---------------------------------------------------------------------------
+
+#news + ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+// padding-left + negative text-indent gives the entry a hanging indent, so a
+// long line (or a bare URL) wraps under itself rather than back under the date
+// chip. Flexbox would work too, but it would promote every inline link in the
+// entry into a separate flex item and break the sentence apart.
+#news + ul > li {
+  padding-left: 8rem;
+  text-indent: -8rem;
+  margin-bottom: 0.55rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+#news + ul > li > strong:first-child {
+  display: inline-block;
+  width: 7.4rem;
+  margin-right: 0.6rem;
+  text-indent: 0;
+  padding: 0.05rem 0.5rem;
+  border-radius: 4px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-family: var(--font-ui);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-align: center;
+  vertical-align: 1px;
+}
+
+// ---------------------------------------------------------------------------
+// Research interests list
+// ---------------------------------------------------------------------------
+
+#research-interests + ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+#research-interests + ul > li {
+  margin: 0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+#research-interests + ul > li strong {
+  color: inherit;
+  font-weight: 600;
+}
+
+// ---------------------------------------------------------------------------
+// Footnote
+// ---------------------------------------------------------------------------
+
+.site-footnote {
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+.site-footnote a {
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-footnote a:hover {
+  color: var(--accent);
+}
+
+// ---------------------------------------------------------------------------
+// Responsive
+// ---------------------------------------------------------------------------
+
+@media (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    padding: 0 22px;
+  }
+
+  header {
+    position: static;
+    padding: 2.5rem 0 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  section {
+    padding: 2rem 0 3rem;
+  }
+
+  .avatar {
+    width: 132px;
+    height: 132px;
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  #news + ul > li {
+    padding-left: 0;
+    text-indent: 0;
+  }
+
+  #news + ul > li > strong:first-child {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .skip-link,
+  .social-icons {
+    display: none;
+  }
+
+  .wrapper {
+    display: block;
+    max-width: none;
+    padding: 0;
+  }
+
+  header {
+    position: static;
+  }
+
+  body {
+    color: #000;
+    font-size: 11pt;
+  }
+}
