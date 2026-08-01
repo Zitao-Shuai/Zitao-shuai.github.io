@@ -23,9 +23,11 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 
 
 ## News
+- **[Jul. 2026]** Our Inertia-1 wearable motion foundation model is out, check here [<https://yang-ai-lab.github.io/Inertia-1/>]!
+- **[Jul. 2026]** Our SensorGen study on real-world sensor signal generation is out, check here [<https://yang-ai-lab.github.io/sensor-gen/>]!
 - **[Mar. 2026]** 2 paper accepted in ICML2026 (1 * regular, 1 * spotlight)
-- **[Mar. 2026]** Our Open Sleep Foundation model is out,check here [https://yang-ai-lab.github.io/osf/]!
-- **[Mar. 2026]** Our Open SleepLM is out,check here [https://yang-ai-lab.github.io/SleepLM/]!
+- **[Mar. 2026]** Our Open Sleep Foundation model is out, check here [<https://yang-ai-lab.github.io/osf/>]!
+- **[Mar. 2026]** Our Open SleepLM is out, check here [<https://yang-ai-lab.github.io/SleepLM/>]!
 - **[Mar. 2026]** 1 paper accepted in CVPR2026 Findings!
 - **[Oct. 2025]** 1 paper accepted in JBI!
 - **[Jul. 2025]** 1 paper accepted in TMLR!

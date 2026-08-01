@@ -12,7 +12,7 @@
 
 main:
   - title: "Inertia-1: An Open Exploration of Wearable Motion Foundation Models"
-    authors: "Zongzhe Xu, Aakarsh Anand, Sarah Jiang, Chuntung Zhuang, <b>Zitao Shuai</b>, Sriram Sankararaman, Yuzhe Yang"
+    authors: "Zongzhe Xu*, Aakarsh Anand*, Sarah Jiang*, Chuntung Zhuang, <b>Zitao Shuai</b>, Sriram Sankararaman, Yuzhe Yang"
     conference_short: "<b>[Preprint]</b>"
     pdf: "https://arxiv.org/abs/2607.06617"
     code: "https://github.com/yang-ai-lab/Inertia-1"
@@ -22,7 +22,7 @@ main:
     notes: "Foundation Models"
 
   - title: "Signal or Noise? Understanding Generative Models for Real-World Sensor Time Series"
-    authors: "<b>Zitao Shuai</b>, Zongzhe Xu, Yuntian Wu, Sirui Li, Tianhong Li, Yuzhe Yang"
+    authors: "<b>Zitao Shuai</b>*, Zongzhe Xu*, Yuntian Wu*, Sirui Li, Tianhong Li, Yuzhe Yang"
     conference_short: "<b>[Preprint]</b>"
     pdf: "https://arxiv.org/abs/2607.04245"
     code: "https://github.com/yang-ai-lab/SensorGen"
@@ -75,7 +75,7 @@ main:
     notes: "Trustworthy AI"
 
   - title: "Dynamic Modeling of Patients, Modalities and Tasks via Multi-modal Multi-task Mixture of Experts"
-    authors: "Chenwei Wu*, <b>Zitao Shuai</b>*, Zhengxu Tang, Luning Wang, Liyue Shen"
+    authors: "Chenwei Wu*, <b>Zitao Shuai</b>*, Zhengxu Tang*, Luning Wang, Liyue Shen"
     conference_short: "<b>[ICLR'25]</b>"
     pdf: "https://openreview.net/forum?id=NJxCpMt0sf"
     image: "./assets/img/m4oe.png"
