@@ -192,6 +192,52 @@ section {
 }
 
 // ---------------------------------------------------------------------------
+// Sidebar motto
+//
+// Resets the global blockquote rule, which is built for body text (left rule,
+// wide margins) and reads badly in a 240px column.
+// ---------------------------------------------------------------------------
+
+.motto {
+  margin: 1.6rem 0 0;
+  // The side padding is deliberate: without it the French line lands at exactly
+  // the 240px column width, so it sits edge to edge and has no room to breathe.
+  // Pulling the measure in lets text-wrap:balance break it into two even lines,
+  // which reads as a pull quote and renders the same whether or not the webfont
+  // loads (the Georgia fallback is wider).
+  padding: 1.3rem 0.5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.motto blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--heading);
+  font-size: 0.98rem;
+  font-style: italic;
+  line-height: 1.4;
+  text-wrap: balance;
+}
+
+.motto .motto-translation {
+  margin: 0.45rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  text-wrap: balance;
+}
+
+.motto figcaption {
+  margin-top: 0.55rem;
+  color: var(--text-muted);
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+// ---------------------------------------------------------------------------
 // Typography
 // ---------------------------------------------------------------------------
 

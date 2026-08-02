@@ -30,6 +30,16 @@ linkedin: https://www.linkedin.com/in/zitao-shuai-1779401a8/
 # twitter: https://twitter.com/
 
 # ---------------------------------------------------------------------------
+# Sidebar motto
+# Shown under the profile links. Comment out "motto" to hide the whole block;
+# "motto_translation" and "motto_source" are optional on their own.
+# ---------------------------------------------------------------------------
+motto: La victoire appartient au plus opiniâtre
+motto_lang: fr
+motto_translation: Victory belongs to the most tenacious
+motto_source: Roland-Garros
+
+# ---------------------------------------------------------------------------
 # Images
 # "favicon" and "favicon_dark" are used for light and dark mode respectively.
 # ---------------------------------------------------------------------------

@@ -104,6 +104,18 @@
           </a>
           {%- endif %}
         </nav>
+
+        {%- if site.motto %}
+        <figure class="motto">
+          <blockquote{% if site.motto_lang %} lang="{{ site.motto_lang }}"{% endif %}>{{ site.motto }}</blockquote>
+          {%- if site.motto_translation %}
+          <p class="motto-translation">{{ site.motto_translation }}</p>
+          {%- endif %}
+          {%- if site.motto_source %}
+          <figcaption>&mdash;&nbsp;{{ site.motto_source }}</figcaption>
+          {%- endif %}
+        </figure>
+        {%- endif %}
       </header>
 
       <section id="main">
