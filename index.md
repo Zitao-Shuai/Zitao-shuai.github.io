@@ -23,6 +23,7 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 
 
 ## News
+- **[Oct. 2026]** Our OpenSLA sensor-language-action model is out, check here [<https://yang-ai-lab.github.io/OpenSLA/>]!
 - **[Jul. 2026]** Our Inertia-1 wearable motion foundation model is out, check here [<https://yang-ai-lab.github.io/Inertia-1/>]!
 - **[Jul. 2026]** Our SensorGen study on real-world sensor signal generation is out, check here [<https://yang-ai-lab.github.io/sensor-gen/>]!
 - **[Mar. 2026]** 2 paper accepted in ICML2026 (1 * regular, 1 * spotlight)

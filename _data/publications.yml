@@ -11,6 +11,16 @@
 # by _includes/publications.md.
 
 main:
+  - title: "Sensor-Language-Action Models"
+    authors: "Yuekai Xu*, <b>Zitao Shuai</b>*, Yuzhe Yang"
+    conference_short: "<b>[Preprint]</b>"
+    pdf: "https://arxiv.org/abs/2610.08244"
+    code: "https://github.com/yang-ai-lab/OpenSLA"
+    page: "https://yang-ai-lab.github.io/OpenSLA/"
+    image: "./assets/img/opensla.mp4"
+    poster: "./assets/img/opensla.jpg"
+    notes: "Foundation Models"
+
   - title: "Inertia-1: An Open Exploration of Wearable Motion Foundation Models"
     authors: "Zongzhe Xu*, Aakarsh Anand*, Sarah Jiang*, Chuntung Zhuang, <b>Zitao Shuai</b>, Sriram Sankararaman, Yuzhe Yang"
     conference_short: "<b>[Preprint]</b>"
