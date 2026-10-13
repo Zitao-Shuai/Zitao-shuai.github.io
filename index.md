@@ -22,6 +22,9 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 
 
 
+{% comment %}
+News is hidden for now. Delete the comment/endcomment lines around it to show it again.
+
 ## News
 - **[Oct. 2026]** Our OpenSLA sensor-language-action model is out, check here [<https://yang-ai-lab.github.io/OpenSLA/>]!
 - **[Sep. 2026]** 1 paper accepted in NeurIPS2026!
@@ -42,6 +45,7 @@ My research interests are in multi-modal learning and AI for healthcare, especia
 - **[Dec. 2023]** 1 paper accepted in Cell Patterns!
 - **[Sep. 2023]** Joined Biomedical AI Lab!
 - **[Jun. 2022]** Joined Trustworthy AI Lab!
+{% endcomment %}
 
 {% include_relative _includes/publications.md %}
 
